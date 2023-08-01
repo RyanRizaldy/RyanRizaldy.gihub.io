@@ -529,6 +529,7 @@ section .container {
   transition: ease-in-out 0.3s;
 }
 
+
 .interests .icon-box i {
   font-size: 32px;
   padding-right: 10px;
@@ -542,6 +543,7 @@ section .container {
   line-height: 1;
   font-size: 16px;
   color: #fff;
+  margin-left: 10px;
 }
 
 .interests .icon-box:hover {
@@ -936,6 +938,24 @@ section .container {
   margin-bottom: 10px;
   margin-left:15px ;
 }
+.offer-detail-image img{
+  width: 500px;
+  height: 300px;
+}
+@media (max-width: 1000px) {
+  .change{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 500px) {
+  .offer-detail-image img{
+    max-width: 99%;
+    height: 300px;
+    margin:60px 0 40px 0;
+  }
+}
+
 /*test*/
 /*--------------------------------------------------------------
 # Portfolio Details
